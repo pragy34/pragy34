@@ -1,10 +1,20 @@
 # 👋 Hey, I'm Pragy — Data Analyst & ML Enthusiast
 
 **Data Analyst | Machine Learning Engineer | GenAI Enthusiast**
+I am a final-year Electronics and Communication Engineering student passionate about Data Science, Machine Learning, and AI-driven systems.
 
-I enjoy exploring data, building machine learning models, and experimenting with generative AI tools. Currently growing my skills in data science and ML engineering — with hands-on projects in computer vision, NLP, predictive modeling, and data analytics.
+I focus on building end-to-end data solutions — from data collection and preprocessing to model building and visualization — with an emphasis on solving real-world problems.
 
+I have hands-on experience with machine learning models, analytics dashboards, and computer vision applications, and I’m currently exploring Generative AI and scalable ML systems.
 ---
+💼 Experience
+🔹 AI Research Intern — Planto.ai
+Contributed to an AI-powered coding assistant
+Improved workflows through testing, iteration, and feedback
+Assisted in model evaluation and feature integration
+🔹 Vocational Trainee — BSNL
+Gained exposure to telecom infrastructure and network systems
+Worked on monitoring, fault detection, and system reliability
 
 ## 📂 Projects
 
