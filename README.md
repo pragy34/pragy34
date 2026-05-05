@@ -155,34 +155,7 @@ Git, Docker, Jupyter, VS Code
 * MLOps (Docker, MLflow)
 * Cloud (AWS basics)
 
----
 
-## 🖼️ Project Snapshots
-
-### NeuroSpike Dashboard
-
-![NeuroSpike](https://via.placeholder.com/800x400.png?text=NeuroSpike+Dashboard)
-
-### TaskFlow Kanban Board
-
-![TaskFlow](https://via.placeholder.com/800x400.png?text=TaskFlow+Kanban)
-
-### One Answer Engine UI
-
-![One Answer Engine](https://via.placeholder.com/800x400.png?text=AI+Advisor)
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=pragy34\&show_icons=true\&theme=radical\&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pragy34\&layout=compact\&theme=radical\&hide_border=true)
-
-</div>
-
----
 
 ## 📬 Connect With Me
 
