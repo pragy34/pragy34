@@ -1,141 +1,199 @@
-# 👋 Hey, I'm Pragy — Data Analyst & ML Engineer
+<div align="center">
 
-**Data Analyst | Machine Learning Engineer | GenAI Enthusiast**
+# Hi, I'm Pragy Upadhyay 👋
 
-Final-year Electronics & Communication Engineering student passionate about
-Data Science, Machine Learning, and AI-driven systems. I build end-to-end
-data solutions — from data collection and preprocessing to model building
-and visualization — with a focus on solving real-world problems.
+**Data Analyst · Machine Learning Engineer · Full-Stack AI Developer**
 
-I have hands-on experience with ML models, computer vision applications,
-analytics dashboards, and am actively exploring Generative AI and LLM pipelines.
+*Final-year ECE student at JIIT Noida — building production-ready AI systems, not just models.*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://linkedin.com/in/pragy-upadhyay-893895246)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/pragy34)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:pragy34@gmail.com)
+
+</div>
+
+---
+
+## 🚀 What Makes Me Different
+
+* I build **end-to-end AI systems** — not just models
+* I ship **production-ready applications**, not just notebooks
+* I combine **ML + Backend + UI** into complete products
+* I focus on **explainability, reasoning, and real-world usability**
+
+👉 Most candidates show models. I show **systems that actually work in real life.**
+
+---
+
+## 🧭 What I Build
+
+I design and deploy **complete AI products** — from raw data to real users.
+
+* 🤖 Machine Learning & Deep Learning (ML → LSTM → SNN)
+* ⚙️ Full-Stack AI Apps (FastAPI + React + PostgreSQL)
+* 🧠 Generative AI & LLM Systems (reasoning + prompt pipelines)
+* 📊 Data Analytics & Visualization Systems
+
+---
+
+## 🏆 Featured Projects
+
+### 🌞 NeuroSpike — Solar Forecasting using AI + SNN
+
+🔗 https://neuromorphic-solar-forecast.onrender.com
+
+> A research-grade + production-ready AI system for solar energy forecasting
+
+* Built full pipeline: **data → feature engineering → ML/DL → API → dashboard**
+* Implemented **Spiking Neural Networks (SNN)** alongside LSTM
+* Achieved **RMSE 29.67, R² 0.9877**, outperforming BiLSTM baseline
+* Includes **power output estimation + savings calculator + city comparison**
+
+💡 This is not just a model — it's a **complete deployable AI system**
+
+**Tech:** Python, FastAPI, Streamlit, LSTM, SNN, ML Pipeline
+
+---
+
+### 🧠 One Answer Engine — AI Product Advisor
+
+🔗 https://one-answer-engine-2.onrender.com
+
+> Reasoning-first recommendation system (logic + AI explanation)
+
+* Uses **deterministic scoring engine** before LLM
+* AI explains decisions → builds **user trust**
+* Bilingual system (English + Arabic)
+
+💡 Demonstrates **AI system design + product thinking**
+
+**Tech:** FastAPI, React, Groq (LLaMA 3), LLM Pipelines
+
+---
+
+### 📋 TaskFlow — Team Collaboration SaaS
+
+🔗 https://team-task-manager-1-l6jn.onrender.com
+
+> Full-stack production application with authentication & Kanban system
+
+* JWT authentication + Role-Based Access Control (RBAC)
+* Kanban board with real-time task management
+* Fully deployed with PostgreSQL backend
+
+💡 Demonstrates **backend engineering + system design**
+
+**Tech:** React, FastAPI, PostgreSQL, Docker
+
+---
+
+### 🎨 Social Media Studio — GenAI Content Engine
+
+> AI-powered Instagram content generator (idea → slides → export)
+
+* Converts raw idea into structured multi-slide content
+* Real-time preview + downloadable creatives
+
+💡 Demonstrates **GenAI + UI/UX thinking**
+
+**Tech:** Node.js, Express, Groq (LLaMA 3), HTML/CSS/JS
+
+---
+
+## 📂 Other Projects
+
+| Project                          | Description                             | Stack                   |
+| -------------------------------- | --------------------------------------- | ----------------------- |
+| 🧠 Employee Attrition Prediction | ML classification + feature engineering | Python, Scikit-Learn    |
+| 📊 Customer Behavior Analysis    | End-to-end analytics pipeline           | Pandas, SQL             |
+| 🎮 Hand Gesture Controller       | Real-time computer vision system        | OpenCV, MediaPipe       |
+| 🗂️ Restaurant Scraper           | Automated web scraping pipeline         | Selenium, BeautifulSoup |
 
 ---
 
 ## 💼 Experience
 
-### 🔹 AI Research Intern — Planto.ai
-- Researched and documented AI-powered coding assistant workflows
-- Studied LLM behavior, prompt patterns, and model evaluation strategies
-- Contributed to feature analysis and iterative improvement cycles
+**🔹 AI Research Intern — Planto.ai**
 
-### 🔹 Vocational Trainee — BSNL
-- Gained exposure to telecom infrastructure and network systems
-- Worked on monitoring, fault detection, and system reliability concepts
+* Worked on LLM workflows, prompt design, and evaluation
+* Contributed to improving AI system reliability
 
----
+**🔹 Vocational Trainee — BSNL**
 
-## 📂 Projects
-
-### 🎮 [Hand Gesture Controller](https://github.com/pragy34/Hand-Gesture-Controller)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logoColor=white)
-
-Real-time hand tracking system using MediaPipe and OpenCV. Detects hand
-landmarks and maps them to application control events — no hardware required.
-
-> **Tech:** MediaPipe, OpenCV, Python, Real-time Inference
-
----
-
-### 🧠 [Text Generation using Whisper AI](https://github.com/pragy34/text-generation-using-whisper-ai)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-
-Speech-to-text pipeline using OpenAI's Whisper combined with LLM-based
-text generation. Explored prompt design and LLM API integration —
-my first hands-on generative AI project.
-
-> **Tech:** Whisper API, OpenAI API, Prompt Engineering, Python
-
----
-
-### 📈 [Employee Attrition Prediction](https://github.com/pragy34/employee-attrition-predection)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37726?style=flat-square&logo=jupyter&logoColor=white)
-
-End-to-end ML classification project predicting employee attrition.
-Performed EDA, feature engineering, trained and compared Logistic Regression,
-Random Forest, and Decision Tree models using accuracy, precision, and recall.
-
-> **Tech:** Scikit-Learn, XGBoost, Pandas, Matplotlib, Seaborn, Jupyter
-
----
-
-### 🍽️ [Restaurant Scraper](https://github.com/pragy34/resturant-scrapper)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
-
-Automated web scraping pipeline to extract and aggregate restaurant data
-from static and dynamic pages, with built-in cleaning for structured output.
-
-> **Tech:** BeautifulSoup, Selenium, Pandas, Python
-
----
-
-### 📊 [Customer Behavior Analysis](https://github.com/pragy34/Customer-Behavior-Analysis-End-to-End-Data-Analytics-Project)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37726?style=flat-square&logo=jupyter&logoColor=white)
-
-Full analytics pipeline — data cleaning, EDA, customer segmentation,
-and visualization dashboards — to support business decision-making.
-
-> **Tech:** Pandas, SQL (Advanced), Matplotlib, Seaborn, Jupyter Notebook
+* Learned telecom systems, monitoring, and fault detection
 
 ---
 
 ## 🛠️ Technical Skills
 
-| Area | Skills |
-|---|---|
-| **Languages** | Python, SQL (Advanced — joins, subqueries, window functions, indexing) |
-| **Machine Learning** | Scikit-Learn, XGBoost, Regression, Classification, Clustering, Model Evaluation |
-| **Deep Learning** | Neural Networks, CNN, RNN/LSTM, Transformers & Attention Mechanisms |
-| **Computer Vision** | OpenCV, MediaPipe |
-| **Generative AI** | OpenAI API, Whisper, Prompt Engineering — exploring LangChain & RAG |
-| **Visualization** | Matplotlib, Seaborn, Plotly |
-| **CS Fundamentals** | DBMS, OOPs (Python & Java), Networking (OSI/TCP-IP), DSA |
-| **Tools** | Jupyter, VS Code, Git, GitHub |
-| **Databases** | MySQL, PostgreSQL |
-| **Currently Learning** | PyTorch, LangChain, RAG pipelines, Docker, MLflow |
+**Languages:** Python, SQL, Java
 
----
+**Machine Learning:**
+Scikit-Learn, XGBoost, Regression, Classification, CNN, LSTM, Transformers, SNN
 
-## 🧠 CS Fundamentals (Interview-Ready)
+**Generative AI:**
+OpenAI API, Groq, Prompt Engineering, LLM Evaluation
 
-- **DBMS & Advanced SQL** — Normalization, transactions, indexing, window functions,
-  complex joins, query optimization
-- **OOPs** — Encapsulation, inheritance, polymorphism, abstraction in Python & Java
-- **Networking** — OSI & TCP/IP models, DNS, HTTP/S, sockets, routing basics
-- **DSA** — Arrays, linked lists, trees, graphs, sorting & searching algorithms,
-  time/space complexity analysis
+**Backend:**
+FastAPI, Node.js, Express
+
+**Frontend:**
+React, HTML, CSS, JavaScript
+
+**Databases:**
+PostgreSQL, MySQL
+
+**Tools:**
+Git, Docker, Jupyter, VS Code
 
 ---
 
 ## 📚 Currently Learning
 
-- 🔗 RAG systems and LLM pipelines using LangChain
-- 🤖 PyTorch for deep learning model training
-- 📦 Model deployment with Docker and basic MLOps (MLflow)
-- ☁️ Cloud basics on AWS (S3, EC2, SageMaker)
+* RAG pipelines & LangChain
+* PyTorch (advanced deep learning)
+* MLOps (Docker, MLflow)
+* Cloud (AWS basics)
+
+---
+
+## 🖼️ Project Snapshots
+
+### NeuroSpike Dashboard
+
+![NeuroSpike](https://via.placeholder.com/800x400.png?text=NeuroSpike+Dashboard)
+
+### TaskFlow Kanban Board
+
+![TaskFlow](https://via.placeholder.com/800x400.png?text=TaskFlow+Kanban)
+
+### One Answer Engine UI
+
+![One Answer Engine](https://via.placeholder.com/800x400.png?text=AI+Advisor)
 
 ---
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=pragy34&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pragy34&layout=compact&theme=radical)
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=pragy34\&show_icons=true\&theme=radical\&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pragy34\&layout=compact\&theme=radical\&hide_border=true)
+
+</div>
 
 ---
 
-## 📬 Let's Connect
+## 📬 Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pragy-upadhyay-893895246)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](pragy34@gmail.com)
+* 📧 Email: [Pragy34@gmail.com](mailto:Pragy34@gmail.com)
+* 💼 LinkedIn: https://linkedin.com/in/pragy-upadhyay-893895246
+* 💻 GitHub: https://github.com/pragy34
 
 ---
 
-*"Still learning. Always building. Improving every day."* 📊
+<div align="center">
+
+*"Building real-world AI systems, not just models."*
+
+</div>
