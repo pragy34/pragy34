@@ -39,6 +39,24 @@ I design and deploy **complete AI products** — from raw data to real users.
 
 ## 🏆 Featured Projects
 
+### 📦 IHDAP — Inventory Health Diagnostic & Action Playbook
+
+🔗 Repo: https://github.com/pragy34/ihdap
+
+> End-to-end inventory analytics project diagnosing $406K in annual inventory bleed across 500 synthetic SKUs — SQL → Excel → Power BI → Tableau, ending in a budget-constrained recovery plan, not just a dashboard.
+
+* Built a **star-schema data warehouse** in SQLite (8 fact/dim tables, SCD Type 2 cost history) from a realistic, intentionally-messy synthetic retail dataset — 500 SKUs, 12 regions, 50 suppliers, $21.7M in analyzed revenue
+* Wrote **15 SQL queries** using CTEs, window functions, and full-outer-join emulation to diagnose stockouts, dead stock, supplier reliability, and margin leakage
+* Carried the same numbers through an **Excel model** (6 tabs, live formulas), a **Power BI DAX measure library** (15 measures across 5 pages), and a **Tableau LOD story** (5 LOD fields, 6-point narrative)
+* Tested 4 hypotheses going in — one was wrong (dead stock, not stockouts, was assumed to be the primary bleed source) and **the wrong hypothesis changed the recommendation**: budget was redirected from markdown campaigns to stockout prevention on the top 10 SKUs (2% of catalog, 15.1% of total bleed)
+* Ended with a **budget-constrained recovery plan**: $50K targeted at the top-25 bleeding SKUs, modeled to recover ~$35K/yr, plus a documented set of anti-recommendations for what *not* to fund
+
+💡 Demonstrates **SQL → BI tool-chain fluency + hypothesis-driven analysis**, ending in a specific budget number instead of a dashboard for its own sake
+
+**Tech:** Python, SQL (SQLite), Excel (OpenPyXL), Power BI (DAX), Tableau (LOD), Pandas, NumPy
+
+---
+
 ### 📥 csv2crm — AI-Powered CRM CSV Importer
 
 🔗 Live demo: https://csv2crm.vercel.app
@@ -179,8 +197,11 @@ FastAPI, Node.js, Express, Event-Driven Systems (watchdog), zod
 **Frontend:**
 React, Next.js, HTML, CSS, JavaScript, Tailwind CSS
 
+**Data & BI:**
+SQL (CTEs, window functions, SCD Type 2), Power BI (DAX), Tableau (LOD), Excel (OpenPyXL, live formulas)
+
 **Databases:**
-PostgreSQL, MySQL
+PostgreSQL, MySQL, SQLite
 
 **Tools:**
 Git, Docker, Jupyter, VS Code
