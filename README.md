@@ -2,226 +2,186 @@
 
 # Hi, I'm Pragy Upadhyay 👋
 
-**Data Analyst · Machine Learning Engineer · Full-Stack AI Developer**
+**AI Engineer · Machine Learning · Backend Systems · Data Analytics**
 
-*Final-year ECE student at JIIT Noida — building production-ready AI systems, not just models.*
+Building production-grade AI applications with FastAPI, React, LLMs, SQL, and Cloud.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pragy-upadhyay-893895246)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pragy34)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pragy34@gmail.com)
+<p align="center">
+<a href="https://github.com/pragy34"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://linkedin.com/in/pragy-upadhyay-893895246"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:pragy34@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+</p>
+
+![Profile views](https://komarev.com/ghpvc/?username=pragy34&color=blue)
 
 </div>
 
 ---
 
-## 🚀 What Makes Me Different
+## 📌 Highlights
 
-* I build **end-to-end AI systems** — not just models
-* I ship **production-ready applications**, not just notebooks
-* I combine **ML + Backend + UI** into complete products
-* I focus on **explainability, reasoning, and real-world usability**
+* Built and **deployed 5+ production AI/full-stack applications** — live, not just localhost
+* **26 automated tests** and **10 documented security fixes** on a live equity-research platform (MarketLens)
+* End-to-end SQL → BI analytics warehouse diagnosing **$406K in inventory bleed** across 500 SKUs (IHDAP)
+* Hands-on with **LLM pipelines** — structured/JSON-schema outputs, prompt engineering, multi-provider fallback (Groq, Gemini)
+* Deep learning research: **SNN + LSTM solar forecasting**, RMSE 29.67, R² 0.9877 — self-caught and fixed a data-leakage bug pre-submission
+* Full-stack: **FastAPI / Express + React / Next.js + PostgreSQL / SQLite**, deployed on Render, Vercel, Railway
 
-👉 Most candidates show models. I show **systems that actually work in real life.**
+## 🎯 Open to Opportunities
+
+`AI Engineer` · `Machine Learning Engineer` · `Data Analyst` · `Backend Developer` · `Full-Stack AI Engineer`
 
 ---
 
-## 🧭 What I Build
+## 🛠️ Tech Stack
 
-I design and deploy **complete AI products** — from raw data to real users.
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,java,ts,react,nextjs,nodejs,fastapi,express,postgres,mysql,sqlite,docker,git,github,linux,tensorflow,pytorch,vercel"/>
+</p>
 
-* 🤖 Machine Learning & Deep Learning (ML → LSTM → SNN)
-* ⚙️ Full-Stack AI Apps (FastAPI/Express + React/Next.js + PostgreSQL)
-* 🧠 Generative AI & LLM Systems (reasoning + prompt pipelines + structured outputs)
-* 🔊 Event-Driven & Resilient Data Pipelines
-* 📊 Data Analytics & Visualization Systems
+**Data & BI:** SQL (CTEs, window functions, SCD Type 2) · Power BI (DAX) · Tableau (LOD) · Excel (OpenPyXL)
+**Generative AI:** OpenAI API · Groq · Google Gemini · Prompt Engineering · Structured Outputs · Whisper
+**ML/DL:** Scikit-Learn, XGBoost, CNN, LSTM, Transformers, SNN
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=pragy34&show_icons=true&theme=tokyonight" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pragy34&layout=compact&theme=tokyonight" height="165"/>
+</p>
+
+<p align="center">
+<img src="https://streak-stats.demolab.com?user=pragy34&theme=tokyonight"/>
+</p>
 
 ---
 
 ## 🏆 Featured Projects
 
-### 📦 IHDAP — Inventory Health Diagnostic & Action Playbook
+### 1. 📈 MarketLens — Live NSE Equity Research Terminal
 
-🔗 Repo: https://github.com/pragy34/ihdap
+**Production-grade equity research platform** — screening, peer valuation, sector heatmaps, portfolio analytics
 
-> End-to-end inventory analytics project diagnosing $406K in annual inventory bleed across 500 synthetic SKUs — SQL → Excel → Power BI → Tableau, ending in a budget-constrained recovery plan, not just a dashboard.
+**Tech:** Python · FastAPI · yfinance · SQLite · Chart.js · Vercel · Render
 
-* Built a **star-schema data warehouse** in SQLite (8 fact/dim tables, SCD Type 2 cost history) from a realistic, intentionally-messy synthetic retail dataset — 500 SKUs, 12 regions, 50 suppliers, $21.7M in analyzed revenue
-* Wrote **15 SQL queries** using CTEs, window functions, and full-outer-join emulation to diagnose stockouts, dead stock, supplier reliability, and margin leakage
-* Carried the same numbers through an **Excel model** (6 tabs, live formulas), a **Power BI DAX measure library** (15 measures across 5 pages), and a **Tableau LOD story** (5 LOD fields, 6-point narrative)
-* Tested 4 hypotheses going in — one was wrong (dead stock, not stockouts, was assumed to be the primary bleed source) and **the wrong hypothesis changed the recommendation**: budget was redirected from markdown campaigns to stockout prevention on the top 10 SKUs (2% of catalog, 15.1% of total bleed)
-* Ended with a **budget-constrained recovery plan**: $50K targeted at the top-25 bleeding SKUs, modeled to recover ~$35K/yr, plus a documented set of anti-recommendations for what *not* to fund
+**Highlights**
+✔ Live, split-deployed app (Render API + Vercel frontend) — not a demo
+✔ 26 automated tests (backend mocked, frontend jsdom)
+✔ 10 documented security fixes — XSS, session-ID leakage, open CORS, unbounded input, event-loop blocking
+✔ Diagnosed and fixed a live sort-logic regression + a syntax bug that broke the whole frontend
+✔ Portfolio analytics: XIRR (Newton-Raphson, no scipy), CSV validation, sector allocation
 
-💡 Demonstrates **SQL → BI tool-chain fluency + hypothesis-driven analysis**, ending in a specific budget number instead of a dashboard for its own sake
-
-**Tech:** Python, SQL (SQLite), Excel (OpenPyXL), Power BI (DAX), Tableau (LOD), Pandas, NumPy
-
----
-
-### 📥 csv2crm — AI-Powered CRM CSV Importer
-
-🔗 Live demo: https://csv2crm.vercel.app
-🔗 Backend API: https://csv2crm.onrender.com
-🔗 Repo: https://github.com/pragy34/csv2crm
-
-> Upload *any* leads/CRM CSV — Facebook Ads exports, Google Ads exports, custom spreadsheets, any layout — and an LLM intelligently maps it into a fixed CRM schema.
-
-* Client-side parse-and-preview (no AI cost until the user confirms) using **papaparse**, then batched AI extraction on the backend
-* AI provider abstracted behind a common interface — runs on **Groq** in production for fast inference and **strict JSON Schema structured outputs**, with **Gemini** as a swappable fallback
-* Prompt and response schema both generated from a **single source-of-truth CRM schema** (`crmSchema.ts`), so the prompt, the JSON schema sent to the model, and the `zod` server-side validator can never drift out of sync
-* Batches processed with a concurrency cap + exponential-backoff retries; a failed batch degrades to "skipped with reason" instead of failing the whole import
-* Real-time import progress via **Server-Sent Events**, not a simulated timer
-
-💡 Demonstrates **AI prompt engineering discipline + backend resilience design**, not just "call an LLM and hope"
-
-**Tech:** Next.js 14, TypeScript, Tailwind, Express, zod, Groq, Google Gemini
+**Links:** [Live Demo](https://market-iq-real-time-stock-research.vercel.app) · [API](https://marketiq-real-time-stock-research-3vw4.onrender.com/api/status) · [Repo](https://github.com/pragy34/MarketIQ-Real-Time-Stock-Research-Portfolio-Analytics-Platform)
 
 ---
 
-### 🎙️ Audio Transcription Pipeline — Resilient Event-Driven Whisper System
+### 2. 📥 csv2crm — AI-Powered CRM CSV Importer
 
-🔗 Repo: https://github.com/pragy34/audio-transcription-pipeline
+**LLM-based CSV-to-CRM schema mapper** — handles any leads export layout automatically
 
-> A production-minded audio transcription pipeline built around OpenAI Whisper — designed after seeing a naive "just call Whisper on upload" approach fail silently on real-world audio.
+**Tech:** Next.js 14 · TypeScript · Express · zod · Groq · Google Gemini
 
-* **Format detection by file bytes** (via `libmagic`), not by trusting the file extension — because users rename files and uploads get mislabeled
-* **Validation gate** rejects unsupported formats, zero-byte files, corrupt/undecodable audio, oversized files, and silent/too-short clips *before* they hit transcription, each with its own typed exception
-* **Segmentation** chunks large files so transcription scales to long recordings without timing out or exhausting memory, then stitches transcripts back together with corrected timestamps
-* **Event-driven trigger** via `watchdog` reacts to new files immediately instead of polling on an interval, with a slow sweep only as a backstop for missed events
-* **Structured, typed error handling** — every failure carries the stage and file it failed at; failed files land in `quarantine/` with an `.error.txt` sidecar instead of vanishing into a log no one reads
+**Highlights**
+✔ Single source-of-truth schema drives the prompt, the JSON schema, and the zod validator — can't drift out of sync
+✔ Groq primary / Gemini fallback behind a common AI-provider interface
+✔ Concurrency-capped batch processing with exponential-backoff retries
+✔ Real-time progress via Server-Sent Events, not a simulated timer
+✔ Zero AI cost until the user confirms the client-side preview
 
-💡 Demonstrates **designing for how a system is actually used in production**, not just the happy path — every stage exists because of a specific real failure mode, not a generic best practice bolted on
-
-**Tech:** Python, OpenAI Whisper, watchdog, pydub/ffmpeg, pytest
-
----
-
-### 🌞 NeuroSpike — Solar Forecasting using AI + SNN
-
-🔗 https://neuromorphic-solar-forecast.onrender.com
-
-> A research-grade + production-ready AI system for solar energy forecasting
-
-* Built full pipeline: **data → feature engineering → ML/DL → API → dashboard**
-* Implemented **Spiking Neural Networks (SNN)** alongside LSTM
-* Achieved **RMSE 29.67, R² 0.9877**, outperforming BiLSTM baseline
-* Includes **power output estimation + savings calculator + city comparison**
-
-💡 This is not just a model — it's a **complete deployable AI system**
-
-**Tech:** Python, FastAPI, Streamlit, LSTM, SNN, ML Pipeline
+**Links:** [Live Demo](https://csv2crm.vercel.app) · [API](https://csv2crm.onrender.com) · [Repo](https://github.com/pragy34/csv2crm)
 
 ---
 
-### 🧠 One Answer Engine — AI Product Advisor
+### 3. 📦 IHDAP — Inventory Health Diagnostic & Action Playbook
 
-🔗 https://one-answer-engine-2.onrender.com
+**SQL → BI analytics project** diagnosing $406K in annual inventory bleed across 500 SKUs
 
-> Reasoning-first recommendation system (logic + AI explanation)
+**Tech:** Python · SQL (SQLite) · Power BI (DAX) · Tableau (LOD) · Excel (OpenPyXL)
 
-* Uses **deterministic scoring engine** before LLM
-* AI explains decisions → builds **user trust**
-* Bilingual system (English + Arabic)
+**Highlights**
+✔ Star-schema warehouse, 8 fact/dim tables, SCD Type 2 cost history
+✔ 15 SQL queries (CTEs, window functions, full-outer-join emulation)
+✔ Same numbers carried through Excel, Power BI, and Tableau
+✔ One of 4 hypotheses tested was wrong — the correction redirected budget from markdown campaigns to stockout prevention on the top 10 SKUs
+✔ Ends in a budget-constrained recovery plan ($50K → ~$35K/yr recovered), not just a dashboard
 
-💡 Demonstrates **AI system design + product thinking**
-
-**Tech:** FastAPI, React, Groq (LLaMA 3), LLM Pipelines
-
----
-
-### 📋 TaskFlow — Team Collaboration SaaS
-
-🔗 https://team-task-manager-1-l6jn.onrender.com
-
-> Full-stack production application with authentication & Kanban system
-
-* JWT authentication + Role-Based Access Control (RBAC)
-* Kanban board with real-time task management
-* Fully deployed with PostgreSQL backend
-
-💡 Demonstrates **backend engineering + system design**
-
-**Tech:** React, FastAPI, PostgreSQL, Docker
+**Links:** [Repo](https://github.com/pragy34/ihdap)
 
 ---
 
-### 🎨 Social Media Studio — GenAI Content Engine
+### 4. 🎙️ Audio Transcription Pipeline — Resilient Event-Driven Whisper System
 
-> AI-powered Instagram content generator (idea → slides → export)
+**Production-minded transcription pipeline** built after watching a naive "just call Whisper" approach fail silently
 
-* Converts raw idea into structured multi-slide content
-* Real-time preview + downloadable creatives
+**Tech:** Python · OpenAI Whisper · watchdog · pydub/ffmpeg · pytest
 
-💡 Demonstrates **GenAI + UI/UX thinking**
+**Highlights**
+✔ Format detection by file bytes (`libmagic`), not filename trust
+✔ Validation gate rejects corrupt/oversized/silent audio before it hits transcription
+✔ Segmentation + timestamp-corrected stitching for long recordings
+✔ Event-driven trigger (`watchdog`) with a slow-sweep backstop for missed events
+✔ Every failure is typed, staged, and quarantined with an error sidecar — nothing vanishes into a log
 
-**Tech:** Node.js, Express, Groq (LLaMA 3), HTML/CSS/JS
+**Links:** [Repo](https://github.com/pragy34/audio-transcription-pipeline)
 
 ---
 
-## 📂 Other Projects
+### 5. 🌞 NeuroSpike — Solar Forecasting with LSTM + Spiking Neural Networks
 
-| Project                          | Description                             | Stack                   |
-| --------------------------------- | ---------------------------------------- | ------------------------ |
-| 🧠 Employee Attrition Prediction  | ML classification + feature engineering  | Python, Scikit-Learn     |
-| 📊 Customer Behavior Analysis     | End-to-end analytics pipeline            | Pandas, SQL              |
-| 🎮 Hand Gesture Controller        | Real-time computer vision system         | OpenCV, MediaPipe        |
-| 🗂️ Restaurant Scraper            | Automated web scraping pipeline          | Selenium, BeautifulSoup  |
+**Research-grade + deployable AI system** for solar irradiance forecasting
+
+**Tech:** Python · FastAPI · Streamlit · LSTM · SNN (snntorch)
+
+**Highlights**
+✔ Full pipeline: data → feature engineering → ML/DL → API → dashboard
+✔ Best model (SNN) beat the BiLSTM baseline: **RMSE 29.67 vs 45.52, R² 0.9877 vs 0.971**
+✔ Self-caught a data-leakage bug mid-project (`clearness_index` was mathematically equivalent to the target) — fixed and fully revalidated before submission
+✔ Trained on NASA POWER hourly data (2021–2023) across 10 global cities
+✔ Includes power-output estimation, savings calculator, and city comparison
+
+**Links:** [Live Demo](https://neuromorphic-solar-forecast.onrender.com)
+
+---
+
+## 📂 More Projects
+
+| Project                          | Description                                          | Stack                        |
+| --------------------------------- | ----------------------------------------------------- | ----------------------------- |
+| 🧠 One Answer Engine             | Deterministic scoring engine + LLM explanation layer, bilingual (EN/AR) | FastAPI, React, Groq (LLaMA 3) |
+| 📋 TaskFlow                      | Team SaaS — JWT auth, RBAC, Kanban, PostgreSQL       | React, FastAPI, PostgreSQL, Docker |
+| 🎨 Social Media Studio           | GenAI Instagram content engine (idea → slides → export) | Node.js, Express, Groq        |
+| 🧠 Employee Attrition Prediction | ML classification + feature engineering              | Python, Scikit-Learn          |
+| 📊 Customer Behavior Analysis    | End-to-end analytics pipeline                        | Pandas, SQL                   |
+| 🎮 Hand Gesture Controller       | Real-time computer vision system                     | OpenCV, MediaPipe             |
+| 🗂️ Restaurant Scraper           | Automated web scraping pipeline                      | Selenium, BeautifulSoup       |
 
 ---
 
 ## 💼 Experience
 
 **🔹 AI Research Intern — Planto.ai**
-
-* Worked on LLM workflows, prompt design, and evaluation
-* Contributed to improving AI system reliability
+Worked on LLM workflows, prompt design, and evaluation; contributed to improving AI system reliability.
 
 **🔹 Vocational Trainee — BSNL**
-
-* Learned telecom systems, monitoring, and fault detection
-
----
-
-## 🛠️ Technical Skills
-
-**Languages:** Python, SQL, Java, TypeScript
-
-**Machine Learning:**
-Scikit-Learn, XGBoost, Regression, Classification, CNN, LSTM, Transformers, SNN
-
-**Generative AI:**
-OpenAI API, Groq, Google Gemini, Prompt Engineering, Structured/JSON-Schema Outputs, LLM Evaluation, Whisper
-
-**Backend:**
-FastAPI, Node.js, Express, Event-Driven Systems (watchdog), zod
-
-**Frontend:**
-React, Next.js, HTML, CSS, JavaScript, Tailwind CSS
-
-**Data & BI:**
-SQL (CTEs, window functions, SCD Type 2), Power BI (DAX), Tableau (LOD), Excel (OpenPyXL, live formulas)
-
-**Databases:**
-PostgreSQL, MySQL, SQLite
-
-**Tools:**
-Git, Docker, Jupyter, VS Code
+Learned telecom systems, monitoring, and fault detection.
 
 ---
 
 ## 📚 Currently Learning
 
-* RAG pipelines & LangChain
-* PyTorch (advanced deep learning)
-* MLOps (Docker, MLflow)
-* Cloud (AWS basics)
+RAG pipelines, Fine-Tuning & Agentic frameworks (LangGraph, CrewAI) · Transformer architectures (attention, from-scratch) · PyTorch (advanced) · MLOps (Docker, MLflow) · AWS basics
+
+---
 
 ## 📬 Connect With Me
 
-* 📧 Email: [Pragy34@gmail.com](mailto:Pragy34@gmail.com)
-* 💼 LinkedIn: https://linkedin.com/in/pragy-upadhyay-893895246
-* 💻 GitHub: https://github.com/pragy34
-
----
+<p align="center">
+<a href="https://github.com/pragy34"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://linkedin.com/in/pragy-upadhyay-893895246"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:pragy34@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+</p>
 
 <div align="center">
 
